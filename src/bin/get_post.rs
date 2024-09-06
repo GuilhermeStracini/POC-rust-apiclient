@@ -1,11 +1,11 @@
-use poc_api_client::client::RestApiClient;
-use poc_api_client::models::Post;
+use poc_api_client::client::PocApiClient;
 
-fn main(){
+#[tokio::main]
+async fn main(){
     let base_url = "https://jsonplaceholder.typicode.com";
-    let client = RestApiClient::new(base_url);
+    let client = PocApiClient::new(base_url);
 
     // GET Request
-    let post = client.get_post(1).unwrap();
-    println!("Fetched Post: {:?}", post);
+    let post = client.get_post(1).await.unwrap(); 
+    println!("{:?}", post);
 }
