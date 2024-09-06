@@ -5,14 +5,14 @@ use crate::error::ApiError;
 use crate::models::Post;
 
 #[derive(Debug, Clone)]
-pub struct RestApiClient {
+pub struct PocApiClient {
     client: Client,
     base_url: String,
 }
 
-impl RestApiClient {
+impl PocApiClient {
     pub fn new(base_url: &str) -> Self {
-        RestApiClient {
+        PocApiClient {
             client: Client::new(),
             base_url: base_url.to_string(),
         }
