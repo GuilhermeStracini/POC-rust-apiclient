@@ -1,5 +1,5 @@
-use rest_api_client::client::RestApiClient;
-use rest_api_client::models::Post;
+use poc_api_client::client::RestApiClient;
+use poc_api_client::models::Post;
 
 fn main(){
     let base_url = "https://jsonplaceholder.typicode.com";
