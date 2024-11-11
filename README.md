@@ -11,4 +11,9 @@
 
 ---
 
-A REST API client/wrapper written in Rust.
+## Useful links
+
+[Calling a Web API](https://rust-lang-nursery.github.io/rust-cookbook/web/clients/apis.html)
+[Building a HTTP Client with Reqwest | Rust](https://medium.com/@carlosmarcano2704/building-a-http-client-with-reqwest-rust-c049cbe4bc2b)
+[Designing an API Client in Rust: New RSpotify Version a Year Later](https://nullderef.com/blog/web-api-client/)
+[How To Write A REST Client In Rust](https://www.lpalmieri.com/posts/how-to-write-a-rest-client-in-rust-with-reqwest-and-wiremock/)
