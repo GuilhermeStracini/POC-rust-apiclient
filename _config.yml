@@ -1,4 +1,4 @@
-theme: jekyll-theme-dinky
+theme: jekyll-theme-cayman
 title: PoC Rust - Microservice
 description: 🔬 Proof of Concept of a microservice in Rust
 show_downloads: true
